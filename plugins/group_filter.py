@@ -267,7 +267,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Hᴇʀᴇ Is Wʜᴀᴛ I Fᴏᴜɴᴅ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\nHow To Download 👇 \nhttps://t.me/ARmovies_world/224\n𝟏 - 𝐄𝐧𝐭𝐞𝐫 𝐓𝐡𝐞 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞 𝐂𝐨𝐫𝐫𝐞𝐜𝐭.\n𝟐 - 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐞 𝐋𝐢𝐧𝐤 𝐀𝐧𝐝 𝐆𝐨 𝐭𝐨 𝐁𝐫𝐨𝐰𝐬𝐞𝐫.\n𝟑 - 𝐂𝐥𝐢𝐜𝐤 𝗜 𝗔𝗺 𝗡𝗼𝘁 𝗮 𝗥𝗼𝗯𝗼𝘁.\n𝟰 - 𝐖𝐚𝐢𝐭𝐢𝐧𝐠 𝐟𝐨𝐫 𝟏𝟎 𝐭𝐨 𝟏𝟓 𝐒𝐞𝐜𝐨𝐧𝐝𝐬 𝐭𝐡𝐞𝐧 𝐒𝐜𝐫𝐨𝐥𝐥 𝐃𝐨𝐰𝐧.\n𝟓 - 𝐂𝐥𝐢𝐜𝐤 𝗢𝗽𝗲𝗻 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗲 2 𝐓𝐢𝐦𝐞𝐬.\n𝟔 - 𝐒𝐜𝐫𝐨𝐥𝐥 𝐃𝐨𝐰𝐧 𝐖𝐚𝐢𝐭 𝐅𝐨𝐫 𝟓 𝐬𝐞𝐜𝐨𝐧𝐝 𝐚𝐧𝐝 𝐂𝐥𝐢𝐜𝐤 "𝗚𝗲𝘁 𝗟𝗶𝗻𝗸"
+        cap = f"Hᴇʀᴇ Is Wʜᴀᴛ I Fᴏᴜɴᴅ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\nHow To Download 👇 \nhttps://t.me/ARmovies_world/224\n𝟏 - 𝐄𝐧𝐭𝐞𝐫 𝐓𝐡𝐞 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞 𝐂𝐨𝐫𝐫𝐞𝐜𝐭.\n𝟐 - 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐞 𝐋𝐢𝐧𝐤 𝐀𝐧𝐝 𝐆𝐨 𝐭𝐨 𝐁𝐫𝐨𝐰𝐬𝐞𝐫.\n𝟑 - 𝐂𝐥𝐢𝐜𝐤 𝗜 𝗔𝗺 𝗡𝗼𝘁 𝗮 𝗥𝗼𝗯𝗼𝘁.\n𝟰 - 𝐖𝐚𝐢𝐭𝐢𝐧𝐠 𝐟𝐨𝐫 𝟏𝟎 𝐭𝐨 𝟏𝟓 𝐒𝐞𝐜𝐨𝐧𝐝𝐬 𝐭𝐡𝐞𝐧 𝐒𝐜𝐫𝐨𝐥𝐥 𝐃𝐨𝐰𝐧.\n𝟓 - 𝐂𝐥𝐢𝐜𝐤 𝗢𝗽𝗲𝗻 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗲 2 𝐓𝐢𝐦𝐞𝐬.\n𝟔 - 𝐒𝐜𝐫𝐨𝐥𝐥 𝐃𝐨𝐰𝐧 𝐖𝐚𝐢𝐭 𝐅𝐨𝐫 𝟓 𝐬𝐞𝐜𝐨𝐧𝐝 𝐚𝐧𝐝 𝐂𝐥𝐢𝐜𝐤 𝗚𝗲𝘁 𝗟𝗶𝗻𝗸"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
