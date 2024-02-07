@@ -4,7 +4,7 @@ class script(object):
 Mʏ Nᴀᴍᴇ Is {bot}.
 
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ ENTER Movie or Series Name Correctly OR ADD Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ
-Group Link 👉 https://t.me/+xqfxWxoePGs4ZWJl
+Group Link 👉 https://t.me/+-VlJFDkAQ4cyMjU1
 
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 
 ᴇxᴀᴍᴘʟᴇ : varisu or varisu 2023 or varisu 2023 tamil
